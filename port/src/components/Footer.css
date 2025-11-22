@@ -1,0 +1,14 @@
+.site-footer{background:linear-gradient(180deg, rgba(250,252,255,0.9), rgba(246,248,251,1));border-top:1px solid rgba(15,23,42,0.04);padding:22px 0;margin-top:28px}
+.footer-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 12px}
+.footer-left{display:flex;align-items:center;gap:12px}
+.logo-small{width:44px;height:44px;border-radius:10px;background:linear-gradient(180deg,#e8f4ff,#dff1ff);display:flex;align-items:center;justify-content:center;color:var(--blue);font-weight:800}
+.footer-copy{color:var(--muted);font-size:14px}
+.footer-nav{display:flex;gap:14px}
+.footer-nav a{text-decoration:none;color:var(--muted);font-weight:600}
+.footer-right{display:flex;gap:10px}
+.footer-right .social{color:var(--blue);text-decoration:none;font-weight:700}
+
+@media (max-width:768px){
+  .footer-inner{flex-direction:column;align-items:center;gap:10px}
+  .footer-nav{order:3}
+}
